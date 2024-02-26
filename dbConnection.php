@@ -1,5 +1,5 @@
 <?php
-$db_host = "localhost:3307";
+$db_host = "artiserver.mysql.database.azure.com";
 $db_user = "root";
 $db_password = "";
 $db_name = "lms_db";
