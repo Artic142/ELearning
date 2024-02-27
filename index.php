@@ -168,8 +168,7 @@
         </div>
       </div>
     </div> 
-    <!-- Add this button code in the body section, right before the closing </body> tag -->
-<button id="toggleChatbot" style="position: fixed; bottom: 20px; right: 20px; z-index: 999;">Toggle Chatbot</button>
+    
 
 <!-- Add this script code after including jQuery -->
 <script>
@@ -186,6 +185,9 @@
         });
     });
 </script>
+
+<!-- Add this button code in the body section, right before the closing </body> tag -->
+<button id="toggleChatbot" style="position: fixed; bottom: 20px; right: 20px; z-index: 999;">Toggle Chatbot</button>
 
 <!-- Add this iframe code right before the closing </body> tag -->
 <iframe src="https://webchat.botframework.com/embed/elearning123-bot?s=B5KIKPRG09w.NT1Xt6mrDV-ngRswfp5Th29ZtfQiYbw719vQX1mx--g" style="height: 502px; max-height: 502px;"></iframe>
