@@ -31,7 +31,7 @@
   <!-- Button to toggle chatbot visibility -->
   <button id="toggleChatbot" class="btn btn-primary float-right">Chat with us</button>
 </div>
-<iframe id="chatbotFrame" src="https://webchat.botframework.com/embed/elearning123-bot?s=B5KIKPRG09w.NT1Xt6mrDV-ngRswfp5Th29ZtfQiYbw719vQX1mx--g" style="display: none; height: 502px; max-height: 502px;"></iframe>
+<iframe id="chatbotFrame" src="https://webchat.botframework.com/embed/elearning123-bot?s=B5KIKPRG09w.NT1Xt6mrDV-ngRswfp5Th29ZtfQiYbw719vQX1mx--g" style="display: none; height: 502px; max-height: 502px;  float: right; "></iframe>
 <script>
   document.getElementById('toggleChatbot').addEventListener('click', function() {
     var chatbotFrame = document.getElementById('chatbotFrame');
