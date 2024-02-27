@@ -169,7 +169,7 @@
       </div>
     </div> 
     
-<div class="container">
+<div class="float-right container">
   <!-- Button to toggle chatbot visibility -->
   <button id="toggleChatbot" class="btn btn-primary float-right">Chat with us</button>
 </div>
