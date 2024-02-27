@@ -168,8 +168,30 @@
         </div>
       </div>
     </div> 
+    <!-- Add this button code in the body section, right before the closing </body> tag -->
+<button id="toggleChatbot" style="position: fixed; bottom: 20px; right: 20px; z-index: 999;">Toggle Chatbot</button>
+
+<!-- Add this script code after including jQuery -->
+<script>
+    $(document).ready(function() {
+        // Function to toggle the chatbot iframe visibility
+        function toggleChatbot() {
+            var chatbotFrame = $("#chatbotFrame");
+            chatbotFrame.toggle();
+        }
+
+        // Attach click event to the toggle button
+        $("#toggleChatbot").click(function() {
+            toggleChatbot();
+        });
+    });
+</script>
+
+<!-- Add this iframe code right before the closing </body> tag -->
+<iframe id="chatbotFrame" src="https://webchat.botframework.com/embed/banquetmanagement-bot?s=B5KIKPRG09w.NT1Xt6mrDV-ngRswfp5Th29ZtfQiYbw719vQX1mx--g" style="display: none; height: 502px; max-height: 502px; position: fixed; bottom: 0; right: 0;"></iframe>
 
   <?php 
     include('./mainInclude/footer.php'); 
     
-  ?>  
+  ?> 
+
