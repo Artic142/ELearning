@@ -27,24 +27,6 @@
 </div> 
 
 
-      <div class="container">
-  <!-- Button to toggle chatbot visibility -->
-  <button id="toggleChatbot" class="btn btn-primary float-right">Chat with us</button>
-</div>
-<iframe id="chatbotFrame" src="https://webchat.botframework.com/embed/elearning123-bot?s=B5KIKPRG09w.NT1Xt6mrDV-ngRswfp5Th29ZtfQiYbw719vQX1mx--g" style="display: none; height: 502px; max-height: 502px; position: fixed; bottom: 0; right: 0;"></iframe>
-<script>
-  document.getElementById('toggleChatbot').addEventListener('click', function() {
-    var chatbotFrame = document.getElementById('chatbotFrame');
-    if (chatbotFrame.style.display === 'none') {
-      chatbotFrame.style.display = 'block';
-    } else {
-      chatbotFrame.style.display = 'none';
-    }
-  });
-</script>
-    </div> 
-
-
     <div class="container-fluid bg-danger txt-banner"> 
         <div class="row bottom-banner">
           <div class="col-sm">
@@ -191,7 +173,22 @@
       </div>
     </div> 
     
-
+ <div class="container">
+  <!-- Button to toggle chatbot visibility -->
+  <button id="toggleChatbot" class="btn btn-primary float-right">Chat with us</button>
+</div>
+<iframe id="chatbotFrame" src="https://webchat.botframework.com/embed/elearning123-bot?s=B5KIKPRG09w.NT1Xt6mrDV-ngRswfp5Th29ZtfQiYbw719vQX1mx--g" style="display: none; height: 502px; max-height: 502px; position: fixed; bottom: 0; right: 0;"></iframe>
+<script>
+  document.getElementById('toggleChatbot').addEventListener('click', function() {
+    var chatbotFrame = document.getElementById('chatbotFrame');
+    if (chatbotFrame.style.display === 'none') {
+      chatbotFrame.style.display = 'block';
+    } else {
+      chatbotFrame.style.display = 'none';
+    }
+  });
+</script>
+    </div> 
 
   <?php 
     include('./mainInclude/footer.php'); 
