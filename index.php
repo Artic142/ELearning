@@ -188,8 +188,7 @@
 </script>
 
 <!-- Add this iframe code right before the closing </body> tag -->
-<iframe id="chatbotFrame" src="https://webchat.botframework.com/embed/banquetmanagement-bot?s=B5KIKPRG09w.NT1Xt6mrDV-ngRswfp5Th29ZtfQiYbw719vQX1mx--g" style="display: none; height: 502px; max-height: 502px; position: fixed; bottom: 0; right: 0;"></iframe>
-
+<iframe src="https://webchat.botframework.com/embed/elearning123-bot?s=B5KIKPRG09w.NT1Xt6mrDV-ngRswfp5Th29ZtfQiYbw719vQX1mx--g" style="height: 502px; max-height: 502px;"></iframe>
   <?php 
     include('./mainInclude/footer.php'); 
     
