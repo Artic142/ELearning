@@ -168,29 +168,24 @@
         </div>
       </div>
     </div> 
-    
-
-<!-- Add this script code after including jQuery -->
+    <div class="container">
+  <!-- Button to toggle chatbot visibility -->
+  <button id="toggleChatbot" class="btn btn-primary float-right">Chat with us</button>
+</div>
+<iframe id="chatbotFrame" src="https://webchat.botframework.com/embed/elearning123-bot?s=B5KIKPRG09w.NT1Xt6mrDV-ngRswfp5Th29ZtfQiYbw719vQX1mx--g" style="display: none; height: 502px; max-height: 502px;"></iframe>
 <script>
-    $(document).ready(function() {
-        // Function to toggle the chatbot iframe visibility
-        function toggleChatbot() {
-            var chatbotFrame = $("#chatbotFrame");
-            chatbotFrame.toggle();
-        }
-
-        // Attach click event to the toggle button
-        $("#toggleChatbot").click(function() {
-            toggleChatbot();
-        });
-    });
+  // JavaScript to toggle chatbot visibility
+  document.getElementById('toggleChatbot').addEventListener('click', function() {
+    var chatbotFrame = document.getElementById('chatbotFrame');
+    if (chatbotFrame.style.display === 'none') {
+      chatbotFrame.style.display = 'block';
+    } else {
+      chatbotFrame.style.display = 'none';
+    }
+  });
 </script>
 
-<!-- Add this button code in the body section, right before the closing </body> tag -->
-<button id="toggleChatbot" style="position: fixed; bottom: 20px; right: 20px; z-index: 999;">Toggle Chatbot</button>
 
-<!-- Add this iframe code right before the closing </body> tag -->
-<iframe src="https://webchat.botframework.com/embed/elearning123-bot?s=B5KIKPRG09w.NT1Xt6mrDV-ngRswfp5Th29ZtfQiYbw719vQX1mx--g" style="height: 502px; max-height: 502px;"></iframe>
   <?php 
     include('./mainInclude/footer.php'); 
     
