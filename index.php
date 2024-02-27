@@ -24,6 +24,14 @@
        
       </div>
 
+ <div class="container" style="text-align: right;"> <!-- Align right -->
+    <!-- Button to toggle chatbot visibility -->
+    <button id="toggleChatbot" class="btn btn-primary" style="margin-top: 10px; margin-right: 10px;">Chat with us</button>
+  </div>
+
+</div> 
+
+
       <div class="container">
   <!-- Button to toggle chatbot visibility -->
   <button id="toggleChatbot" class="btn btn-primary float-right">Chat with us</button>
