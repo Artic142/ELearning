@@ -168,11 +168,12 @@
         </div>
       </div>
     </div> 
-    <div class="container">
+    
+<div class="container">
   <!-- Button to toggle chatbot visibility -->
   <button id="toggleChatbot" class="btn btn-primary float-right">Chat with us</button>
 </div>
-<iframe id="chatbotFrame" src="https://webchat.botframework.com/embed/elearning123-bot?s=B5KIKPRG09w.NT1Xt6mrDV-ngRswfp5Th29ZtfQiYbw719vQX1mx--g" style="display: none; height: 502px; max-height: 502px;"></iframe>
+<iframe class="chatbot" id="chatbotFrame" src="https://webchat.botframework.com/embed/elearning123-bot?s=B5KIKPRG09w.NT1Xt6mrDV-ngRswfp5Th29ZtfQiYbw719vQX1mx--g" style="display: none; height: 502px; max-height: 502px;"></iframe>
 <script>
   // JavaScript to toggle chatbot visibility
   document.getElementById('toggleChatbot').addEventListener('click', function() {
