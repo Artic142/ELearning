@@ -12,18 +12,8 @@
       <div class="vid-content" >
         <h1 class="my-content">Welcome to E-learning</h1>
         <small class="my-content">Learn and Implement</small><br />
-        <?php    
-              if(!isset($_SESSION['is_login'])){
-                echo '<a class="btn btn-danger mt-3" href="#" data-toggle="modal" data-target="#stuRegModalCenter">Get Started</a>';
-              } else {
-                echo '<a class="btn btn-primary mt-3" href="student/studentProfile.php">My Profile</a>';
-              }
-          ?> 
-       
-      </div>
-    </div> 
 
-<div class="container">
+        <div class="container">
   <!-- Button to toggle chatbot visibility -->
   <button id="toggleChatbot" class="btn btn-primary float-right">Chat with us</button>
 </div>
@@ -39,6 +29,17 @@
     }
   });
 </script>
+        <?php    
+              if(!isset($_SESSION['is_login'])){
+                echo '<a class="btn btn-danger mt-3" href="#" data-toggle="modal" data-target="#stuRegModalCenter">Get Started</a>';
+              } else {
+                echo '<a class="btn btn-primary mt-3" href="student/studentProfile.php">My Profile</a>';
+              }
+          ?> 
+       
+      </div>
+    </div> 
+
 
     <div class="container-fluid bg-danger txt-banner"> 
         <div class="row bottom-banner">
