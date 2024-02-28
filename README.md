@@ -72,8 +72,15 @@ Securely manages keys, secrets used in the application.
 Description : Azure App Service provides a scalable and reliable hosting environment for E-learning, ensuring seamless deployment and continuous availability to optimize the user experience.
 
 
+![appservices](https://github.com/Artic142/ELearning/assets/155463016/14e552f9-f5f3-4d8b-b7f8-42ff812ef609)
+
+
+
 **2) Azure Database For MySQL :**
 Description :The project leverages Azure MySQL as its database solution to efficiently manage and store user interaction history. Azure MySQL provides a reliable relational database service that ensures that data is readily available, reliable, and quickly retrievable, leading to smooth user experiences.
+
+![server](https://github.com/Artic142/ELearning/assets/155463016/ba9c8408-3a0b-4300-a4b0-78f64edc93eb)
+
 
 
 # Azure AI Service :
@@ -82,10 +89,24 @@ Description :The project leverages Azure MySQL as its database solution to effic
 
 Description :Azure Bot Service empowers E-learning Portal with interactive and responsive bot experiences, enhancing user engagement and satisfaction through seamless deployment and continuous availability.
 
+![botservice](https://github.com/Artic142/ELearning/assets/155463016/70fc466a-6d1c-40d9-b655-06e1a303c1d7)
+
+
 
 **Working Live Project Display :**
 
 Provided below is a screenshot displaying the operational website, offering a real-time view of the project in action for your reference and review. 
+
+![homepage](https://github.com/Artic142/ELearning/assets/155463016/ccf4bc6b-f70a-49eb-9473-14b43623f694)
+
+![courses1](https://github.com/Artic142/ELearning/assets/155463016/fa95f2b8-11c2-4a1f-b0f8-61b43c34df78)
+
+![course2](https://github.com/Artic142/ELearning/assets/155463016/14805e84-2031-4a1e-afb5-dce154788b86)
+
+![chatbot](https://github.com/Artic142/ELearning/assets/155463016/9084b2f1-f005-4ffa-bc28-80d3b1795c0e)
+
+![admin](https://github.com/Artic142/ELearning/assets/155463016/1208b1cc-9715-4825-bcf5-7f65ec2e08f8)
+
 
  
 **Resource Visualizer :**
@@ -93,6 +114,9 @@ Provided below is a screenshot displaying the operational website, offering a re
 Description:
 
 Enclosed is a screenshot of the resource visualizer, providing a comprehensive overview of the utilized resources for reference and documentation purposes.
+
+![visualizer](https://github.com/Artic142/ELearning/assets/155463016/a43116f7-2a29-4ae0-93d3-1225a4ab0130)
+
 
 
 # Final Project Statement :
