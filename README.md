@@ -29,7 +29,7 @@ Based on the results of the current study, it can be deduced that e-Learning cou
 
 # Project Description :
 
-An electronic learning platform is an integrated set of interactive online services that provide trainers, learners, and others involved in education with information, tools, and resources to support and enhance education delivery and management. One type of eLearning platform is a learning management system (LMS). An eLearning portal is a website that offers learners interaction and collaboration on eLearning content like courses, presentations as well as content management for eLearning providers. Any Person who wants to gain new skills can join iSchool. A Person/Student/Learner has to fill up registration form which is absolutely Free. Once Learner registers successfully, they will get UserID/Email and Password for login into Student/Learner Panel.
+An electronic learning platform is an integrated set of interactive online services that provide trainers, learners, and others involved in education with information, tools, and resources to support and enhance education delivery and management. One type of eLearning platform is a learning management system (LMS). An eLearning portal is a website that offers learners interaction and collaboration on eLearning content like courses, presentations as well as content management for eLearning providers. Any Person who wants to gain new skills can join e-learning. A Person/Student/Learner has to fill up registration form which is absolutely Free. Once Learner registers successfully, they will get UserID/Email and Password for login into Student/Learner Panel.
 
 # Key Features :
 
