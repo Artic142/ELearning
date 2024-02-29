@@ -14,6 +14,10 @@ E-Learning is learning utilizing electronic technologies to access educational c
 
 **Industry :** Ed-tech
 
+# Problem Statement :-
+
+Based on the results of the current study, it can be deduced that e-Learning could potentially shape the future of education by advancing the traditional classroom settinginto the web. The use of e-Learning has dramatically increased over the years as teachers and students perceived its usefulness and felt the impact of e-learning to their teaching methodologies and learning styles. Therefore, there is a need for the entire academic community to ensure that the factors of e-learning effectiveness are delivered adequately and the utilization of e-learning must be evaluated regularly. Thus, E-Learning plays a pivotal role in ascertaining the success of online teaching and learning.
+
 # Azure Services Used :-
 
 **1)Core Azure Services:**
