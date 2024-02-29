@@ -30,11 +30,17 @@ An electronic learning platform is an integrated set of interactive online servi
 # Key Features :
 
 •	Ability to recall previously learned material – Students/learners can watch video courses as many times as they need. If they forgot something during the course they can come back and watch that specific part anytime.
+
 •	Creative way to present lesson – It is very creative way to present lectures. It will surely enhance teaching ability of tutor.
+
 •	Low Cost – As nobody needs to travel or rent anything so it’s very cost efficient.
+
 •	High Quality – As tutor do not has time boundation so he can teach in his own comfort time.
+
 •	Learn anytime from anywhere – Students/Learners can start learning anytime from anywhere they just required internet connection with a compatible device.
+
 •	Improve course quality according to learner’s feedback – Tutor can improve their course as per student’s feedback. It will help tutor to improve their ability to teach. 
+
 •	Earn Money Online– As courses are paid so we can say it’s an online teaching business which has no boundaries means students/learners can join from across the world so this system can make good business with good quality.
 
 # Future Enhancements :
